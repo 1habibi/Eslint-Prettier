@@ -21,8 +21,7 @@
     вы можете прописать нужные правила вручную. */
     "rules": {
         "prettier/prettier": 
-            ["error", { "endOfLine": "auto" }, 
-            "warn", { "singleQuote": true, "semi": true}   
+            ["error", { "endOfLine": "auto", "singleQuote": true, "semi": true}
             ], // Обязательно!! Подсвечивает ошибки из Prettier.
         "no-undef": "off",
         "max-len": [1, {"code": 100}]
